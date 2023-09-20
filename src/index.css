@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  @font-face {
+      font-family: ClashDisplayBold;
+        src: url("fonts/ClashDisplayBold.otf");
+  }
+
+  @font-face {
+    font-family: ClashDisplaySemiBold;
+    src: url("fonts/ClashDisplaySemiBold.otf");
+  }
+
+  @font-face {
+      font-family: MontserratBoldItalic;
+        src: url("fonts/MontserratBoldItalic.ttf");
+  }
+
+  @font-face {
+      font-family: MontserratBold;
+        src: url("fonts/MontserratBold.ttf");
+  }
+
+  @font-face {
+      font-family: MontserratSemiBold;
+        src: url("fonts/MontserratSemiBold.ttf");
+  }
+
+  @font-face {
+      font-family: MontserratThin;
+        src: url("fonts/MontserratThin.ttf");
+  }
+
+  @font-face {
+      font-family: MontserratRegular;
+        src: url("fonts/MontserratRegular.ttf");
+  }
+
+  @font-face {
+      font-family: MontserratLight;
+        src: url("fonts/MontserratLight.ttf");
+  }
+}
